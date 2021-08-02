@@ -7,7 +7,159 @@
       name="description"
       content="Information about how Autism presents in females"
     />
-    <title>Autism in Females</title>
+    <title>🧠 Autism in Females</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1>Women and Autism</h1>
+      <h2><em>The Invisible Issue Facing Women Across the World</em></h2>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/005/663/original/women-graphic.png?1615472633"
+        width="500"
+      />
+      <hr />
+      <h3>What is Autism?</h3>
+      <p>
+        Autism is a developmental condition that affects the nervous system. It
+        can cause
+        <span class="characteristics"
+          >difficulty with communication and social interactions
+        </span>
+        and
+        <span class="characteristics"
+          >foster obsessive interests and repetitive actions</span
+        >.
+      </p>
+      <h3>Diagnosing Autism in Women vs. Men</h3>
+      <p>
+        Autism was originally defined in the <em>DSM</em> (The Diagnostic and
+        Statistical Manual of Mental Disorders) in a way that primarily focused
+        on how autism presents in males, specifically in childhood. Girls, even
+        when they are young, tend to understand the social importance of
+        blending in and becoming a part of the herd to the extent that they can
+        create enough social rules and structure on their own to help them
+        survive, even in the face of autistic challenges. This allows women to
+        go unnoticed for a long period of time without seeking help. Social
+        interactions might feel harder to manage than it seems for others, but
+        many might write it off as anxiety or other issues. Most of the
+        literature and research on autism has been more concentrated on male
+        autistic tendencies, so even when women decide to seek help, the
+        information they find may be misleading or unhelpful.
+      </p>
+      <h3>Characteristics of Autism</h3>
+      <ul>
+        <li>
+          Overthinking in social situations to the point of avoiding contact or
+          social gatherings
+        </li>
+
+        <li>Easily distressed by sound, light, textures, tastes, or smells</li>
+        <li>
+          Occasional or frequent shut downs where one feels unable or less able
+          to communicate, think clearly, or manage day-to-day activities,
+          usually after social interaction or a sensory experience
+        </li>
+        <li>
+          Occasional or frequent melt downs where one must seclude themselves to
+          recover so that they can regain normal functioning
+        </li>
+        <li>
+          Operating by a set standard of social rules such as rehearsing
+          questions or dialogue before an event to better anticipate timing and
+          expected responses
+        </li>
+        <li>
+          Repetitive actions, either overt or covert, such as clicking teeth,
+          tapping fingers or toes, bouncing, hand flapping
+        </li>
+        <li>
+          Feeling like life requires much more effort and intention than it does
+          for others
+        </li>
+      </ul>
+      <h3>How Masking Prevents Women from Getting the Help They Need</h3>
+      <p>
+        Masking is a term that describes behaviors and speech patterns that one
+        utilizes to appear "normal." Many autistic women are skilled
+        communicators and may even appear to be the life of the party, but this
+        is due to learned behavior patterns that they have practiced over time
+        to accommodate their unique social needs. Masking might come more
+        naturally to women than it does to men due to the increased importance
+        placed on social structure and maintaining close friendships. This
+        message is driven home by social media at society at large and can lead
+        women to think that forcing their social success is key to survival,
+        even at the detriment of their mental health and sensory needs.
+      </p>
+      <h3>Embrace Your Super Power</h3>
+      <p>
+        More and more women are deciding to label their autistic tendencies not
+        as a "disorder" but a "difference." Many autistic tendencies can greatly
+        benefit individuals and the world at large, tendencies such as unique
+        communication styles and creative problem solving, quick learning
+        abilities, being extremely empathetic human beings (despite what many
+        say), and the list goes on. Every day new resources are being created
+        that specifically address autistic women and the unique challenges they
+        face, and new online communities are being formed. Being autistic
+        doesn't have to hold you down. In many ways, it's a superpower!
+      </p>
+      <a href="https://rdos.net/eng/Aspie-quiz.php" target="_blank"
+        ><button class="quiz">Take the Aspie Quiz</button></a
+      >
+      <button class="subscribe">Subscribe to Our Newsletter</button>
+      <h3>Resources</h3>
+
+      <a href="https://embraceasd.com" target="_blank"> Embrace ASD </a>
+
+      <br />
+
+      <a
+        href="https://read.amazon.com/kp/embed?asin=B00DAHF48I&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_91N6BFESBZRE700XTGWB"
+        target="_blank"
+      >
+        Book: I Think I Might Be Autistic</a
+      >
+      <br />
+      <a
+        href="https://www.maxineaston.co.uk/published/Asperger_Family.shtml"
+        target="_blank"
+      >
+        Growing Up in an Asperger Family</a
+      >
+      <br />
+      <a
+        href="https://themighty.com/2019/08/actually-autistic-instagram/"
+        target="_blank"
+      >
+        14 Actually Autistic Influencers</a
+      >
+      <br />
+
+      <p class="attribution">
+        <strong>Coded by Taylor Heaton</strong>
+      </p>
+    </div>
+    <script>
+      function subscribe() {
+        let name = prompt("👋 What is your name?");
+        let email = prompt("💌 What is your email address?");
+        if (email.length > 0) {
+          alert(
+            "Thank you, " +
+              name +
+              "! " +
+              "🕺🎉" +
+              "We will be in touch shortly. In the meantime, check out our additional resources at the bottom of the page. We are here to help!" +
+              " 💞"
+          );
+        } else {
+          alert(
+            "Please provide a valid email address. 😭 We promise we won't spam you with unnecessary information, and you can unsubscribe at any time. We protect your information and will not share it with third parties. Your safety is important to us. 🦺"
+          );
+        }
+      }
+
+      let subscribeButton = document.querySelector("button.subscribe");
+      subscribeButton.addEventListener("click", subscribe);
+    </script>
+  </body>
 </html>
