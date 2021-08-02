@@ -4,6 +4,7 @@ h1 {
   text-align: center;
   font-size: 48px;
   margin-bottom: 6px;
+  color: #28407f;
 }
 
 h2 {
@@ -24,6 +25,7 @@ h3 {
   letter-spacing: 2.5px;
   text-align: center;
   font-size: 32px;
+  color: #28407f;
 }
 
 p {
@@ -51,14 +53,23 @@ li {
 
 button {
   display: block;
-  margin: 0 auto;
-  margin-bottom: 20px;
+  margin: 40px auto;
+  font-size: 32px;
+  font-family: "Poppins" sans-serif;
+  border-color: black;
+  background: #03bfa9;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  transition: all 200ms ease;
 }
 
 .attribution {
   font-size: 12px;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 26px;
   margin-top: 60px;
 }
 
@@ -67,4 +78,19 @@ button {
   font-family: "Poppins", sans-serif;
   line-height: 2;
   font-size: 24px;
+}
+
+button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #28407f;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #28407f;
 }
